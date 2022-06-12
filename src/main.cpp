@@ -3,8 +3,8 @@
 #include "Lista.hpp"
 #include "UMa.hpp"
 #include "UMb.hpp"
-//#include "UMc.hpp"
-//#include "UMd.hpp"
+#include "UMc.hpp"
+#include "UMd.hpp"
 
 using namespace std;
 
@@ -17,8 +17,8 @@ main ()
   ItemD aux;
   UMa ua;
   UMb ub;
-  //UMc uc;
-  //UMd ud;
+  UMc uc;
+  UMd ud;
   BlockD *prim;
 
   while (c != 's')
@@ -53,7 +53,7 @@ main ()
 	    ub.Jogo ();
 	    break;
 	  }
-    /*
+    
 	case 'c':
 	  {
 	    int n;
@@ -72,7 +72,7 @@ main ()
 	    ud.makeXY (n);
 	    ud.euclidiana (n);
 	    break;
-	  } */
+	  } 
 	  
 	}
     }
