@@ -25,11 +25,11 @@ UMd::makeXY (int n)
       aux.val = rand () % 10;
       LInsert (&y, aux);
     }
-/*
+
   cout << "As listas formadas sao:\nX: ";
   LImprime (&x);
   cout << "Y: ";
-  LImprime (&y); */
+  LImprime (&y); 
 }
 
 void
