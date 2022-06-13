@@ -18,3 +18,4 @@ Como tratado em sala, vimos o quão difícil esse problema é com uma lista din�
 
 # Letra D
 
+Assim como as questão anterior, para esse problema uma função recebe o tamanho das listas e produz duas listas lineares aleatórias. A proxima função então calcula a euclidiana entre as duas listas, fazendo dois vetores que recebem os valores da euclidiana para cada indice. Assim que isso é feito, um dos vetores é organizado por ShellSort, e assim subtraindo dois de seus valores por vez, conseguimos ver quais valores das listas são os mais próximos. Utilizando o indice do vetor de euclidiana não organizado, obtemos tambem o indice dos valores nas listas. 
