@@ -20,9 +20,12 @@ Como tratado em sala, vimos o quão difícil esse problema é com uma lista din�
 
 Assim como as questão anterior, para esse problema uma função recebe o tamanho das listas e produz duas listas lineares aleatórias. A proxima função então calcula a euclidiana entre as duas listas, fazendo dois vetores que recebem os valores da euclidiana para cada indice. Assim que isso é feito, um dos vetores é organizado por ShellSort, e assim subtraindo dois de seus valores por vez, conseguimos ver quais valores das listas são os mais próximos. Utilizando o indice do vetor de euclidiana não organizado, obtemos tambem o indice dos valores nas listas. 
 
-#Make File
+# Make File
 
 Como executar:
+
   make clean - Apaga a última compilação realizada contida na pasta build
+  
   make - Executa a compilação do programa utilizando o gcc, e o resultado vai para a pasta build
+  
   make run - Executa o programa da pasta build após a realização da compilação
